@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz!</title>
+
+    <link rel="stylesheet" href="./assets/css/styles.css" />
+  </head>
+
+  <body>
+    <div class="scores">
+      <a href="highscores.html">View Highscores</a>
+    </div>
+
+    <div class="timer">Time: <span id="time">0</span></div>
+
+    <div class="wrapper">
+      <div id="start-screen" class="start">
+        <h1>Remembering Kobe!</h1>
+        <p>Welcome to my quiz challenge. This quiz is a tribute to the great Kobe Bryant due to his recent passing. You will start with 24 seconds on the clock and gain 8 seconds for every question answered correctly. Good luck, and utilize your mamba mentality to persevere through this quiz!</p>
+        <button id="start">Start Quiz</button>
+        <img src="assets/Kobe-Bryant-GettyImages-93243663.jpg">
+      </div>
+
+      <div id="questions" class="hide">
+        <!-- Display current question -->
+      </div>
+      <div id="choices" class ="choices">
+
+      </div>
+      <div id="congrats-container"> </div>
+      <div id="end-screen" class="hide">
+        <!-- End screen content -->
+        <!-- Display the final score -->
+        <p>
+          <form>
+          <input id="initials"><!-- `input` field for the user initials -->
+        </form>
+        <a href="highscores.html"><button id="submit">Submit</button></a>
+      </p>
+      </div>
+      <div id="correct">
+      <!-- Message to flash "Correct" or "Incorrect" -->
+    </div>
+    <div id="kobe" class="hide">
+      <img src="assets/1472021049_1469100937-1466163189-3ffda3278a0b483d8d655bf26ede5d3c.jpg">
+    </div>
+    </div>
+
+    <script src="./assets/js/logic.js"></script>
+  </body>
+</html>
