@@ -5,4 +5,11 @@ Hello! Welcome to my Kobe Code Quiz! As a basketball fan of only about 5-6 years
 <ol>RULES
   <li>You start with 24 seconds on the clock</li>
   <li>For each correct button click you GAIN 8 seconds</li>
-  <li>For each incorrect button click you LOSE 8 seconds</li>
+  <li>For each incorrect button click you LOSE 8 seconds</li></ol>
+
+<ul>Technologies/techniques utilized:
+  <li>HTML5</li>
+  <li>CSS3</li>
+  <li>JavaScript</li>
+  <li>Local Storage</li>
+  <li>DOM control</li>
